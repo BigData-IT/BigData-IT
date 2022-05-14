@@ -46,7 +46,10 @@
 	// Scrolly.
 		$('.scrolly').scrolly();
 
+		
+
 	// Nav.
+
 
 		// Button.
 			$(
@@ -215,3 +218,17 @@
 		});
 
 })(jQuery);
+
+function showMore() {
+
+var moreDiv = document.getElementById("more");
+if (moreDiv.style.display == 'none'){
+document.getElementById("more").style.display = 'block';
+document.getElementById("moreBut").textContent =" Show Less";
+}
+else{
+	document.getElementById("more").style.display = 'none';
+	document.getElementById("moreBut").textContent = "Show More";
+
+}
+}
