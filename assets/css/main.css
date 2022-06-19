@@ -44,9 +44,17 @@ blockquote, q {
 }
 .org {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 40px;
+  grid-template-columns: 1fr;
+  margin-top: 30px;
 }
+
+@media only screen and (min-width: 600px) {
+.org {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+}
+	}
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
