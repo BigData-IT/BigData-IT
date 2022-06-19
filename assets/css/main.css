@@ -33,14 +33,20 @@ body {
 	line-height: 1;
 }
 
+
 ol, ul {
 	list-style: none;
 }
 
+
 blockquote, q {
 	quotes: none;
 }
-
+.org {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+}
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
@@ -158,7 +164,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: blue;
 			border-bottom-color: transparent;
 		}
 
