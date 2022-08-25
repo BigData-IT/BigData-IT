@@ -54,6 +54,12 @@ blockquote, q {
   grid-template-columns: 1fr 1fr;
   margin-top: 30px;
 }
+.key {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-top: 30px;
+
+}
 	}
 	blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
@@ -98,10 +104,10 @@ input, select, textarea {
 
 	body {
 		background: #f0f4f4;
-		color: #5b5b5b;
+		color: black;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Lato', sans-serif;
 		font-weight: 300;
 	}
 
